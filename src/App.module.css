@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-large {
+    grid-column: span 2;
+}
+
+.card-small {
+    grid-column: span 1;
+}
+
+.button{
+    margin: 0 5px;
+}
+
+.jokesCount{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282626;
+}

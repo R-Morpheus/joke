@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 680px;
+    height: 240px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    color: #282626;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*@media (min-width: 600px) {*/
+/*    .container {*/
+/*        max-width: calc(33.333% - 10px);*/
+/*    }*/
+/*}*/
+
+.link{
+    text-decoration: none;
+    color: #282626;
+}
+
+.description{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #767676;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 17px;
+}
+
+.cardLarge {
+    grid-column: span 12; /* Для 12-колоночной сетки, занимает полностью первую строку */
+    /* Вы можете настроить размеры для больших карточек здесь */
+}
+
+.cardSmall {
+    grid-column: span 6; /* Для 12-колоночной сетки, занимает половину строки */
+    /* Вы можете настроить размеры для маленьких карточек здесь */
+}

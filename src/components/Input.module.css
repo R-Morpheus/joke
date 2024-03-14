@@ -1,0 +1,23 @@
+.input{
+    display: flex;
+    width: 626px;
+    height: 64px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #656EC2;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    line-height: 30px;
+    flex: 1 1 calc(33.333% - 10px);
+    margin: 15vh 0 2vh 0;
+}
+
+.input::placeholder {
+    color: #656EC2;
+    opacity: 1;
+}
